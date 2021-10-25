@@ -4,4 +4,10 @@
    line-height: 1.22;
    text-decoration-line: underline;
    font-weight: normal;
+   opacity: 1;
+   transform: opacity liner 0.5s;
+}
+
+.cards__link:hover {
+   opacity: 0.8;
 }

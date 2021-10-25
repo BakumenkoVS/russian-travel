@@ -7,10 +7,29 @@
    grid-column-gap: 18px;
    grid-template-areas: 
    ' . . preview preview preview preview preview preview preview preview preview preview  . . '
-   ' . . information information information information information information information information . . . .'
+   ' . . information information information information information information information . . . . .'
    ' . gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery . '
    ' . . nature nature nature nature nature nature nature nature nature nature . . '
    ' . cover cover cover cover cover cover cover cover cover cover cover cover . '
    ;
 
 }
+
+@media screen and (max-width: 1024px) {
+  .content {
+    max-width: 1024px;
+    grid-template-areas: 
+    ' . preview preview preview preview preview preview preview preview preview preview preview  preview . '
+    ' . information information information information information information information information information . . . .'
+    ' . gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery gallery . '
+    ' . nature nature nature nature nature nature nature nature nature nature nature nature . '
+    ' cover cover cover cover cover cover cover cover cover cover cover cover cover cover '
+    ;
+   }
+} 
+
+@media screen and (max-width: 990px) {
+   .content {
+     display: block;
+    }
+ } 

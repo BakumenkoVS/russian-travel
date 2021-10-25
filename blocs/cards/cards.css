@@ -9,3 +9,21 @@
 .cards:last-child {
    padding-bottom: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+   .cards {
+      grid-template-columns: fit-content(440px) 1fr;
+      grid-column-gap: 32px;
+   }
+}
+
+@media screen and (max-width: 990px) {
+   .cards {
+      grid-template-columns: fit-content(340px) 1fr;
+      grid-column-gap: 28px;
+      padding: 0 24px 73px;
+   }
+   .cards:last-child {
+      padding-bottom: 90px;
+   }
+}

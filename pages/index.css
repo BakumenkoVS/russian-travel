@@ -30,3 +30,7 @@
 @import url(../blocs/cover/__link/cover__link.css);
 @import url(../blocs/cover/__title/cover__title.css);
 @import url(../blocs/cover/__subtitle/cover__subtitle.css);
+@import url(../blocs/footer/footer.css);
+@import url(../blocs/footer/__links/footer__links.css);
+@import url(../blocs/footer/__link/footer__link.css);
+@import url(../blocs/footer/__author/footer__author.css);

@@ -3,3 +3,9 @@
    box-sizing: border-box;
    padding: 92px 0 92px 0;
 }
+
+@media screen and (max-width: 990px) {
+   .information {
+      padding: 88px 24px 88px 24px;
+   }
+}
