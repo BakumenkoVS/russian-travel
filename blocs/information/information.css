@@ -4,8 +4,14 @@
    padding: 92px 0 92px 0;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 768px) {
    .information {
       padding: 88px 24px 88px 24px;
+   }
+}
+
+@media screen and (max-width: 710px) {
+   .information {
+      padding: 64px 16px;
    }
 }

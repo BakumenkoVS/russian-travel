@@ -4,6 +4,12 @@
    font-weight: 400;
    font-style: normal;
    font-size: 24px;
-   line-height: 28px;
+   line-height: 1.17;
 }
 
+@media screen and (max-width: 710px) {
+   .header__link {
+      font-size: 18px;
+      line-height: 1.11;
+   }
+}
