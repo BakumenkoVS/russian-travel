@@ -12,5 +12,5 @@
 *БЭМ
 
 **Ссылка GitHub Pages**
-
+https://bakumenkovs.github.io/russian-travel/index.html
 
