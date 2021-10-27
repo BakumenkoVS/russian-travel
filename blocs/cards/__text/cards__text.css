@@ -1,12 +1,20 @@
-.cards__text-first {
+.cards__text {
    font-size: 18px;
    line-height: 1.63;
    margin: 0;
 }
 
+.cards__text:nth-child(even) {
+   margin-top: 26px;
+}
+
 @media screen and (max-width: 768px) {
-   .cards__text-first{
+   .cards__text{
       font-size: 16px;
       line-height: 1.63;
+   }
+
+   .cards__text:nth-child(even) {
+      margin-top: 25px;
    }
 }
