@@ -1,0 +1,14 @@
+.cards__link-text {
+   font-size: 12px;
+   line-height: 1.7;
+   letter-spacing: 2px;
+   color: #AAA;
+   margin: 0 0 12px 0;
+   text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+   .cards__link-text {
+      line-height: 1;
+   }
+}
