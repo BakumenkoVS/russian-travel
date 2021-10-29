@@ -11,10 +11,15 @@
 @media screen and (max-width: 768px) {
    .cards__text{
       font-size: 16px;
-      padding: 0 16px 0;
    }
 
    .cards__text:nth-child(even) {
       margin-top: 25px;
+   }
+}
+
+@media screen and (max-width: 710px) {
+   .cards__text{
+      padding: 0 16px 0;
    }
 }

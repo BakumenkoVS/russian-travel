@@ -4,5 +4,11 @@
    list-style-type: none;
    gap: 18px;
    margin: 0;
-   padding: 0;
+   padding: 18px 0 0 0;
+}
+
+@media screen and (max-width: 710px) {
+   .header__links {
+      padding-top: 14px;
+   }
 }
